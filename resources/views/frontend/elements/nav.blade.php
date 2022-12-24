@@ -12,8 +12,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         </button>
-        
-      
+              
 
 
             <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
@@ -29,13 +28,30 @@
                     </li>
 
                     <li class="dropdown mm-menu">
-                        <a class="page-scroll" href="#about">About Us</a>
-                    </li>
-                    
-                    <li class="dropdown mm-menu">
-                        <a class="page-scroll" href="#businesslines">Business Lines</a>
+                        <a class="page-scroll" href="">About Us</a>
                     </li>
 
+                    
+                    <li class="dropdown" style="position: relative;">
+                        <a class="page-scroll" href="#businesslines">Service</a>
+                         <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Pharmaceuticals</a></li>
+                            <li><a class="dropdown-item" href="#">Speciality Chemicals</a></li>
+                            <li><a class="dropdown-item" href="#">Construction Chemicals</a></li>
+                            <li><a class="dropdown-item" href="#">Exports</a></li>
+                          </ul>
+                    </li>
+                   
+                    
+                    <li class="dropdown" style="position: relative;">
+                        <a class="page-scroll" href="#businesslines">Business Lines</a>
+                         <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Pharmaceuticals</a></li>
+                            <li><a class="dropdown-item" href="#">Speciality Chemicals</a></li>
+                            <li><a class="dropdown-item" href="#">Construction Chemicals</a></li>
+                            <li><a class="dropdown-item" href="#">Exports</a></li>
+                          </ul>
+                    </li>
                     <li class="dropdown mm-menu">
                         <a class="page-scroll" href="#reviews">Partners</a>
                     </li>
