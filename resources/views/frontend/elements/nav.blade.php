@@ -1,7 +1,7 @@
 <header >
     <nav class="navbar-inverse navbar-lg navbar-fixed-top">
         {{-- <div class="container" style = "background-color: white;"> --}}
-        <div class="" style = "background-color: white;">
+        <div class="" style = "background-color: white; padding-left: 100px;padding-right: 80px">
             <div class="navbar-header">
                 <a href="#" class="navbar-brand brand"><img src="{{ asset('ui/frontend') }}/images/bsclogo.png" alt="logo"></a>
             </div>
@@ -16,7 +16,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right navbar-login">
                     <li>
-                         <a href="tel:1800789123"><span class="icon-call"></span> 880-1886888809</a>
+                         <a href="tel:1886888809"><span class="icon-call"></span> 880-1886888809</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
