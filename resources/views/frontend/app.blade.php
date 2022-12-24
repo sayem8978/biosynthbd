@@ -42,6 +42,10 @@
 
         @yield('content')
 
+        <!-- About Us -->
+        @include('frontend.about')
+
+
      <!-- FOOTER -->
         @include('frontend.elements.footer')
 

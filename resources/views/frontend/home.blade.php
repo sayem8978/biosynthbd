@@ -124,7 +124,7 @@
 </div>
 
     <!-- About Us -->
-    <div id="about" class="container">
+    {{-- <div id="about" class="container">
         <!-- About Section 1 -->
         <div class="intro intro-about2">
             <div class="container">
@@ -167,11 +167,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div class="space80"></div>
 
 
-    <div class="video-action">
+    {{-- <div class="video-action">
         <div class="row text-center">
             <h1>When a man's stomach is full it makes no <br> difference whether he is rich or poor.</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio <br>finibus bibendum in sit
@@ -183,7 +183,7 @@
                 </div>
             </a>
         </div>
-    </div>
+    </div> --}}
 
 
 
@@ -252,7 +252,7 @@
     <div class="space100"></div>
 
     <!-- Testimonials -->
-    <div id="reviews" class="testimonials-color">
+    {{-- <div id="reviews" class="testimonials-color">
         <div class="container">
             <div class="about-inline text-center">
                 <h3>Testimonials </h3>
@@ -283,16 +283,16 @@
             </div>
             <div class="space100"></div>
         </div>
-    </div>
+    </div> --}}
 
     <!-- Faq -->
-    <div class="container" id="faq">
+    {{-- <div class="container" id="faq">
         <div class="about-inline text-center">
             <h3>Frequently Asked Questions </h3>
         </div>
-    </div>
+    </div> --}}
 
-    <div class="container">
+    {{-- <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6">
                 <div class="faq">
@@ -329,10 +329,10 @@
             </div>
         </div>
         <div class="space100"></div>
-    </div>
+    </div> --}}
 
     <!-- PARALLAX -->
-    <section class="parallax-content2 parallax2 text-center" data-stellar-background-ratio="0.4">
+    {{-- <section class="parallax-content2 parallax2 text-center" data-stellar-background-ratio="0.4">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -347,11 +347,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
     <!-- PARALLAX -->
-    <section class="text-center">
+    {{-- <section class="text-center">
         <div class="cta-wrap subscribe-elt2 ">
             <div class="container">
                 <div class="col-md-12">
@@ -372,6 +372,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <div class="space80"></div>
 @endsection
