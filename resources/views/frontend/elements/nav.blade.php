@@ -12,16 +12,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         </button>
+        
+      
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right navbar-login">
                     <li>
                          <a href="tel:1886888809"><span class="icon-call"></span> 880-1886888809</a>
                     </li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown mm-menu">
-                        <a class="page-scroll" href="#home">Home</a>
+                <ul class="nav navbar-nav navbar-right ">
+                    <li class="dropdown mm-menu ">
+                        <a class="page-scroll " href="#home">Home</a>
+                        
                     </li>
 
                     <li class="dropdown mm-menu">
