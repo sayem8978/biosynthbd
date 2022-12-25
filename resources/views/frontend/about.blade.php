@@ -34,7 +34,7 @@
                     <a href="#" class="btn btn-lg btn-primary">Learn More <i class="icon-arrow-right"></i></a>
                 </div>
                 <div class="col-md-7">
-                    <img src="{{ asset('ui/frontend') }}/images/features/2.png" class="pull-left img-responsive" alt="" />
+                    <img src="{{ asset('') }}/images/features/2.png" class="pull-left img-responsive" alt="" />
                 </div>
             </div>
         </div>

@@ -81,7 +81,7 @@
                         </div> --}}
                     </div>
                     <div class="bottom-wrap">
-                        <a href="" class="btn btn-sm btn-primary float-right" data-toggle="modal"
+                        <a href="" class="btn btn-sm btn-primary float-right" data-toggle=""
                             data-target="#modalContactForm">Details</a>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                         </div> --}}
                     </div>
                     <div class="bottom-wrap">
-                        <a href="" class="btn btn-sm btn-primary float-right" data-toggle="modal"
+                        <a href="" class="btn btn-sm btn-primary float-right" data-toggle=""
                             data-target="#modalContactForm">Details</a>
 
                     </div>
@@ -114,7 +114,7 @@
                         </div> --}}
                     </div>
                     <div class="bottom-wrap">
-                        <a href="" class="btn btn-sm btn-primary float-right" data-toggle="modal"
+                        <a href="" class="btn btn-sm btn-primary float-right" data-toggle=""
                             data-target="#modalContactForm">Deatils</a>
                     </div>
                 </div>
