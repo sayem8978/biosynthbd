@@ -82,7 +82,7 @@
                     </div>
                     <div class="bottom-wrap">
                         <a href="" class="btn btn-sm btn-primary float-right" data-toggle="modal"
-                            data-target="#">Details</a>
+                            data-target="#modalContactForm">Details</a>
                     </div>
                 </div>
             </div>
