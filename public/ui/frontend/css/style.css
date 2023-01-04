@@ -186,6 +186,12 @@ ul, ol, li {
 	text-align:center !important;
 }
 
+#header {
+	overflow: hidden !important;
+	height: 8rem;
+	z-index: 99;
+
+}
 
 /* HEADER STYLES */
 
@@ -196,7 +202,10 @@ ul, ol, li {
 	font-family: 'Roboto', sans-serif;
 	border-width: 0;
 	border-radius: 0;
-	background: transparent;
+	z-index: 1;
+	
+	/* background: transparent; */
+
 }
 
 .navbar-inverse {
@@ -207,6 +216,7 @@ ul, ol, li {
 	min-height: 86px;
 	margin-bottom: 0;
 	border: none;
+	
 }
 
 .navbar-lg .navbar-brand {
@@ -220,7 +230,8 @@ ul, ol, li {
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 	color: #fff;
-	background-color: transparent;
+	/* background-color: transparent; */
+	/* background-color: red; */
 }
 
 .navbar-lg .navbar-nav > li > a {
@@ -562,7 +573,7 @@ ul, ol, li {
 	top: 0;
 	left: 0;
 	border-radius: inherit;
-	background-color: transparent;
+	/* background-color: transparent; */
 	-webkit-animation: cd-pulse 2s infinite;
 	-moz-animation: cd-pulse 2s infinite;
 	animation: cd-pulse 2s infinite;

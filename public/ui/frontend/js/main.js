@@ -84,13 +84,13 @@ $(document).ready(function() {
     });
 
     // Fixed Header
-    $(window).scroll(function() {
-        var value = $(this).scrollTop();
-        if (value > 80)
-            $(".navbar-inverse").css("background", "#fff");
-        else
-            $(".navbar-inverse").css("background", "transparent");
-    });
+    // $(window).scroll(function() {
+    //     var value = $(this).scrollTop();
+    //     if (value > 80)
+    //         $(".navbar-inverse").css("background", "#fff");
+    //     else
+    //         $(".navbar-inverse").css("background", "transparent");
+    // });
 	
 	// Fixed Header
     $(window).scroll(function() {

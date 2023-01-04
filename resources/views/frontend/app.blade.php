@@ -18,6 +18,7 @@
 
     <!-- ICONS -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="{{ asset('ui/frontend') }}/css/ilmosys-icon.css">
     <link rel="stylesheet" href="{{ asset('ui/frontend') }}/js/vendors/swipebox/css/swipebox.min.css">
 
@@ -120,7 +121,7 @@
 </div>
 
 
-
+{{-- 
     <!-- JAVASCRIPT =============================-->
     <script src="{{ asset('ui/frontend') }}/js/jquery.js"></script>
     <script src="{{ asset('ui/frontend') }}/js/bootstrap.min.js"></script>
@@ -133,7 +134,7 @@
     <script src="{{ asset('ui/frontend') }}/js/vendors/mc/jquery.ketchup.all.min.js"></script>
     <script src="{{ asset('ui/frontend') }}/js/vendors/mc/main.js"></script>
 
-    @stack('js')
+    @stack('js') --}}
 
 </body>
 

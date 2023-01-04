@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BussinessLineController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +16,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('frontend.home');
+    // return view('welcome');
 });
+Route::get('/about', function () {
+    return view('frontend.about');
+});
+Route::get('/business-line',[BussinessLineController::class,'index']);
+Route::get('/aboutus',[BussinessLineController::class,'aboutus']);
+
+

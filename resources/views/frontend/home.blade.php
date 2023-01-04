@@ -1,11 +1,11 @@
-@extends('frontend.app')
+@extends('frontend.layouts.master')
 @section('content')
     <!-- Home -->
     <div class="intro intro3">
         <div class="container">
             <div class="row center-content">
                 <div class="col-md-5 col-md-6">
-                    
+
                     <h3 style="color: white;">The best way to get your prescription.</h3>
                     {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet
                         leo. </p> --}}
@@ -16,7 +16,7 @@
                         <a href="#about" class="btn btn-lg btn-default btn-border page-scroll">Learn More About Us <i
                                 class=" ilmosys-arrow-right"></i></a>
                     </div>
-                    
+
                 </div>
                 <div class="col-md-7 col-sm-6 no-padding">
                 </div>
@@ -59,69 +59,77 @@
             </div>
         </div>
     </div> --}}
- <!--images-->
- <div id="explore" class="elements-content">
-    <div class="container">
-        <div class="about-inline text-center">
-            <h3>Welcome to biosynth chemicals bd. </h3>
-            <p>Biosynth Chemicals BD is very renowned, fastest growing indenting or trading company in Bangladesh. As a leading indenter Biosysnth-would like to the partner of Pharma & Veterinary, Food & Beverage, & Personal Care industry in Bangladesh. 
+    <!--images-->
+    <div id="explore" class="elements-content">
+        <div class="container">
+            <div class="about-inline text-center">
+                <h3>Welcome to biosynth chemicals bd. </h3>
+                <p>Biosynth Chemicals BD is very renowned, fastest growing indenting or trading company in Bangladesh. As a
+                    leading indenter Biosysnth-would like to the partner of Pharma & Veterinary, Food & Beverage, & Personal
+                    Care industry in Bangladesh.
 
-                Biosynth Chemicals BD has been working as an agent to supply raw materials in Bangladesh market since long. We work with world’s renowned manufacturer with their best quality raw materials. Our specialty is on providing quality API, Intermediates, Excipients and Packing Materials from various country of the world like Europe, USA, CHINA, INDIA, MALYASIA etc.
+                    Biosynth Chemicals BD has been working as an agent to supply raw materials in Bangladesh market since
+                    long. We work with world’s renowned manufacturer with their best quality raw materials. Our specialty is
+                    on providing quality API, Intermediates, Excipients and Packing Materials from various country of the
+                    world like Europe, USA, CHINA, INDIA, MALYASIA etc.
                 </p>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card card-product">
-                    <div class="img-wrap"><img src="{{ asset('ui/frontend') }}/images/foods/img1.jpg" alt="img"></div>
-                    <div class="info-wrap">
-                        <h4 class="title">Lab 1</h4>
-                        {{-- <p class="desc"> Time: 15 - 20 Minutes | Serves: 1 </p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-product">
+                        <div class="img-wrap"><img src="{{ asset('ui/frontend') }}/images/foods/img1.jpg" alt="img">
+                        </div>
+                        <div class="info-wrap">
+                            <h4 class="title">Lab 1</h4>
+                            {{-- <p class="desc"> Time: 15 - 20 Minutes | Serves: 1 </p>
                         <div class="price-wrap h3">
                             <span class="price-new">$10.50</span> <del class="price-old">$11.70</del>
                         </div> --}}
-                    </div>
-                    <div class="bottom-wrap">
-                        <a href="" class="btn btn-sm btn-primary float-right" data-toggle="modal"
-                            data-target="#modalContactForm">Details</a>
+                        </div>
+                        <div class="bottom-wrap">
+                            <a href="" class="btn btn-sm btn-primary float-right" data-toggle="modal"
+                                data-target="#modalContactForm">Details</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card card-product">
-                    <div class="img-wrap"><img src="{{ asset('ui/frontend') }}/images/foods/img2.jpg" alt="img"></div>
-                    <div class="info-wrap">
-                        <h4 class="title">Lab 2</h4>
-                        {{-- <p class="desc"> Time: 30 - 45 Minutes | Serves: 1 </p>
+                <div class="col-md-4">
+                    <div class="card card-product">
+                        <div class="img-wrap"><img src="{{ asset('ui/frontend') }}/images/foods/img2.jpg" alt="img">
+                        </div>
+                        <div class="info-wrap">
+                            <h4 class="title">Lab 2</h4>
+                            {{-- <p class="desc"> Time: 30 - 45 Minutes | Serves: 1 </p>
                         <div class="price-wrap h3">
                             <span class="price-new">$9.20</span> <del class="price-old">$10.50</del>
                         </div> --}}
-                    </div>
-                    <div class="bottom-wrap">
-                        <a href="" class="btn btn-sm btn-primary float-right" data-toggle=""
-                            data-target="#modalContactForm">Details</a>
+                        </div>
+                        <div class="bottom-wrap">
+                            <a href="" class="btn btn-sm btn-primary float-right" data-toggle=""
+                                data-target="#modalContactForm">Details</a>
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card card-product">
-                    <div class="img-wrap"><img src="{{ asset('ui/frontend') }}/images/foods/img3.jpg" alt="img"></div>
-                    <div class="info-wrap">
-                        <h4 class="title">Lab 3</h4>
-                        {{-- <p class="desc"> Time: 10 - 15 Minutes | Serves: 1 </p>
+                <div class="col-md-4">
+                    <div class="card card-product">
+                        <div class="img-wrap"><img src="{{ asset('ui/frontend') }}/images/foods/img3.jpg" alt="img">
+                        </div>
+                        <div class="info-wrap">
+                            <h4 class="title">Lab 3</h4>
+                            {{-- <p class="desc"> Time: 10 - 15 Minutes | Serves: 1 </p>
                         <div class="price-wrap h3">
                             <span class="price-new">$12.50</span> <del class="price-old">$13.20</del>
                         </div> --}}
-                    </div>
-                    <div class="bottom-wrap">
-                        <a href="" class="btn btn-sm btn-primary float-right" data-toggle=""
-                            data-target="#modalContactForm">Deatils</a>
+                        </div>
+                        <div class="bottom-wrap">
+                            <a href="" class="btn btn-sm btn-primary float-right" data-toggle=""
+                                data-target="#modalContactForm">Deatils</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
     <!-- About Us -->
     {{-- <div id="about" class="container">
